@@ -181,7 +181,7 @@ courseName.addEventListener("keyup", function() {
    if(pattern.test(courseName.value)){
     if(courseName.classList.contains("is-invalid")){
         courseName.classList.remove("is-invalid");
-        courseCapacity.classList.add("is-valid");
+        courseName.classList.add("is-valid");
     }
     courseName.classList.add("is-valid");
     nameError.style.cssText = "display:none";
